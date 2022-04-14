@@ -1,0 +1,18 @@
+{
+  "name": "chandanaandassociates-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "build-css": "npx tailwindcss -i ./public/css/tailwind-build.css -o ./public/css/style.css -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.0.22"
+  },
+  "dependencies": {
+    "tw-elements": "^1.0.0-alpha11"
+  }
+}

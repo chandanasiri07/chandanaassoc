@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chandana and Associates | Our Services</title>
+    <meta name="title" content="Chandana and Associates | Our Services" />
+
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="public/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="public/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="public/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="public/favicon/site.webmanifest" />
+    <link
+      rel="mask-icon"
+      href="public/favicon/safari-pinned-tab.svg"
+      color="#5bbad5"
+    />
+
+    <link rel="stylesheet" href="./public/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link href="./public/css/aos.css" rel="stylesheet" />
+    <script src="./public/scripts/aos.js" defer></script>
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+      defer
+    ></script>
+  </head>
+  <body class="">
+    <!-- Social Icons Bottom -->
+    <div class="fixed bottom-4 right-4 z-50">
+      <a
+        href="https://api.whatsapp.com/send?phone=+918886492361"
+        class="bg-green-500 text-white px-3 py-1.5 text-2xl rounded-md"
+      >
+        <i class="fa-brands fa-whatsapp"></i>
+      </a>
+
+      <a href="mailto:chandanaandassociates@gmail.com" class="">
+        <img
+          src="./public/images/utils/email.webp"
+          class="w-11 p-2.5 mt-4 bg-white border rounded-md shadow"
+          alt=""
+        />
+      </a>
+    </div>
+    <header class="sticky top-0 shadow overflow-x-hidden z-50">
+      <!-- Contact Header -->
+      <div class="border-b bg-white">
+        <div class="container">
+          <div class="flex justify-between pl-5 text-sm font-semibold">
+            <div class="flex">
+              <a
+                href="tel:+918886492361"
+                class="flex border gap-2 items-center px-3 py-2 border-y-0"
+              >
+                <img
+                  src="./public/images/utils/phone.webp"
+                  alt=""
+                  class="w-5"
+                />
+                <span class="hidden md:block">+91 8886492361</span>
+              </a>
+
+              <a
+                href="mailto:chandanaandassociates@gmail.com"
+                class="flex gap-2 border items-center px-3 py-2 border-l-0 border-y-0"
+              >
+                <img
+                  src="./public/images/utils/email.webp"
+                  alt=""
+                  class="w-5"
+                />
+                <span class="hidden md:block"
+                  >chandanaandassociates@gmail.com</span
+                >
+              </a>
+            </div>
+            <div class="flex">
+              <a
+                href="https://www.linkedin.com/in/ca-chandana-siri-a1b26699/"
+                class="px-3 py-2 border-y-0 border-l"
+              >
+                <img
+                  src="./public/images/utils/linkedin.webp"
+                  alt=""
+                  class="w-5"
+                />
+              </a>
+              <a
+                href="https://goo.gl/maps/SS2yzu38JUVpXBRL8"
+                class="border-l px-3 py-2 border-y-0"
+              >
+                <img src="./public/images/utils/maps.webp" alt="" class="w-5" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Navbar -->
+      <nav class="w-screen bg-white">
+        <div
+          class="flex flex-wrap items-center justify-between w-full py-2 md:py-4 px-4 text-lg text-gray-700 bg-white container"
+        >
+          <div class="ml-0 md:ml-4">
+            <a href="./">
+              <img
+                src="./public/images/utils/logo.svg"
+                alt=""
+                class="w-72 md:w-80 py-1"
+              />
+            </a>
+          </div>
+
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            id="menu-button"
+            class="h-6 w-6 cursor-pointer md:hidden block mr-2"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M4 6h16M4 12h16M4 18h16"
+            />
+          </svg>
+
+          <div
+            class="hidden w-full md:flex md:items-center md:w-auto"
+            id="menu"
+          >
+            <ul
+              class="pt-4 text-base text-gray-700 md:flex md:justify-between md:pt-0"
+            >
+              <li>
+                <a
+                  href="./"
+                  class="md:p-4 py-2 block hover:text-accent-violet"
+                  href="#"
+                  >Home</a
+                >
+              </li>
+              <li>
+                <a
+                  href="./about-us"
+                  class="md:p-4 py-2 block hover:text-accent-violet transition"
+                  href="#"
+                  >About Us</a
+                >
+              </li>
+              <li>
+                <a
+                  href="./our-services"
+                  class="md:p-4 py-2 block text-accent-violet font-semibold"
+                  href="#"
+                  >Our Services</a
+                >
+              </li>
+              <li>
+                <a
+                  href="./contact-us"
+                  class="md:p-4 py-2 block hover:text-accent-violet transition"
+                  href="#"
+                  >Contact Us</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="container">
+        <div class="text-white py-12 md:py-20 px-4 ml-0 md:ml-4">
+          <h6
+            class="text-4xl md:text-5xl font-bold text-center"
+            data-aos="fade-in"
+          >
+            Our Services
+          </h6>
+          <hr class="w-12 mx-auto mt-5" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="p-4 max-w-full">
+      <div class="container my-10 flex flex-wrap gap-8 justify-center">
+        <div
+          class="border max-w-card p-4 rounded-xl shadow-lg"
+          data-aos="fade-up"
+          data-aos-delay="0"
+        >
+          <img src="./public/images/services/01.webp" alt="" class="my-4" />
+          <h4 class="font-semibold text-2xl">Income Tax</h4>
+          <p class="py-2">
+            We help in filing your Income-tax returns for any kind of income
+            such as salary, house property income, business income, capital
+            gains, foreign income. We also advise on tax savings investments
+          </p>
+        </div>
+
+        <div
+          class="border max-w-card p-4 rounded-xl shadow-lg"
+          data-aos="fade-up"
+          data-aos-delay="100"
+        >
+          <img src="./public/images/services/01.webp" alt="" class="my-4" />
+          <h4 class="font-semibold text-2xl">
+            Auditing and Assurance Services
+          </h4>
+          <p class="py-2">
+            We do both Statutory Audit and Internal Audit for companies by
+            providing an unbiased report of the financial statements which shows
+            a true and fair representation of the company's financial status.
+          </p>
+        </div>
+
+        <div
+          class="border max-w-card p-4 rounded-xl shadow-lg"
+          data-aos="fade-up"
+          data-aos-delay="150"
+        >
+          <img src="./public/images/services/01.webp" alt="" class="my-4" />
+          <h4 class="font-semibold text-2xl">Goods & Service Tax (GST)</h4>
+          <p class="py-2">
+            The Goods and service Tax(GST) is an indirect tax levied on the
+            supply of goods and services in India. We help businesses in getting
+            GST registrations, and filing monthly or quarterly returns before
+            due date.
+          </p>
+        </div>
+
+        <div
+          class="border max-w-card p-4 rounded-xl shadow-lg"
+          data-aos="fade-up"
+          data-aos-delay="200"
+        >
+          <img src="./public/images/services/01.webp" alt="" class="my-4" />
+          <h4 class="font-semibold text-2xl">Company Formation in India</h4>
+          <p class="py-2">
+            We provide incorporation and registration services for both
+            corporate and non corporate business. According to your expected
+            business time and volume, we advise and help in getting all the
+            mandatory registrations like GST, Income-tax, IEC code, PF, ESIC,
+            etc.
+          </p>
+        </div>
+
+        <div
+          class="border max-w-card p-4 rounded-xl shadow-lg"
+          data-aos="fade-up"
+          data-aos-delay="250"
+        >
+          <img src="./public/images/services/01.webp" alt="" class="my-4" />
+          <h4 class="font-semibold text-2xl">
+            India Business Advisiory Services
+          </h4>
+          <p class="py-2">
+            We advise our clients in strategizing plans at every level of their
+            business with respect to legal, finance, tax, risk, market
+            considerations etc. We also assist the companies with a variety of
+            different duties, taxes, including investment plans , insurance,
+            expanding into new markets, tax savings etc
+          </p>
+        </div>
+
+        <div
+          class="border max-w-card p-4 rounded-xl shadow-lg"
+          data-aos="fade-up"
+          data-aos-delay="300"
+        >
+          <img src="./public/images/services/01.webp" alt="" class="my-4" />
+          <h4 class="font-semibold text-2xl">Corporate Compliance</h4>
+          <p class="py-2">
+            Our services with respect to corporate compliance includes Company
+            incorporations, Name reservation, Allotment of DIN, kyc of
+            Directors, Annual ROC filings and all other compliances with respect
+            to Companies act 2013.
+          </p>
+        </div>
+
+        <div
+          class="border max-w-card p-4 rounded-xl shadow-lg"
+          data-aos="fade-up"
+          data-aos-delay="350"
+        >
+          <img src="./public/images/services/01.webp" alt="" class="my-4" />
+          <h4 class="font-semibold text-2xl">Book Keeping</h4>
+          <p class="py-2">
+            We provide book keeping services which helps companies to measure
+            their financial performance and make strategic decisions.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <footer class="bg-accent-dark text-gray-200">
+      <div
+        class="container flex justify-between flex-col lg:flex-row px-4 md:px-12 py-8 gap-12"
+      >
+        <div class="max-w-xs">
+          <h4 class="font-semibold text-white">About Us</h4>
+          <p>
+            Chandana and Associates is a chartered accountant firm in india. We
+            offer services like Income tax filing, Auditing, Business Taxation
+            etc.
+          </p>
+        </div>
+
+        <div>
+          <h4 class="font-semibold text-white">Useful Links</h4>
+          <ul class="flex flex-col gap-1 pt-1">
+            <li><a href="./">Home</a></li>
+            <li><a href="./about-us">About Us</a></li>
+            <li><a href="./our-services">Our Services</a></li>
+            <li><a href="./contact-us">Contact Us</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="font-semibold text-white pb-1">Contact Us</h4>
+          <p>
+            Shop No:40/411, Bhaskar Nagar,<br />
+            Opposite SV Complex,<br />
+            Kurnool, Pin: 518004.<br />
+            Email:
+            <a
+              href="mailto:chandanaandassociates@gmail.com"
+              class="font-semibold"
+              >chandanaandassociates@gmail.com</a
+            >
+            <br />
+            Phone:
+            <a href="tel:+918886492361" class="font-semibold">+91 8886492361</a>
+          </p>
+        </div>
+      </div>
+      <hr class="border-gray-600 py-2" />
+
+      <p class="text-center font-semibold pb-4">
+        &copy; 2022 Chandana And Associates. All rights reserved.
+      </p>
+    </footer>
+    <script src="./public/scripts/script.js" defer></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-N3EE43S0FN"
+      defer
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-N3EE43S0FN");
+    </script>
+  </body>
+</html>
