@@ -52,7 +52,7 @@ const validateEmail = (e) =>
 function submit(e) {
   $.ajax({
     type: "POST",
-    url: "https://formmailer-cas.vercel.app/",
+    url: "https://email.chandanaandassociates.com/",
     data: e,
     dataType: "json",
     encode: !0,
