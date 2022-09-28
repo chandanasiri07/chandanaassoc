@@ -52,7 +52,7 @@ const validateEmail = (e) =>
 function submit(e) {
   $.ajax({
     type: "POST",
-    url: "https://chandanaandassc-api.herokuapp.com/submit",
+    url: "https://formmailer-cas.vercel.app/",
     data: e,
     dataType: "json",
     encode: !0,
