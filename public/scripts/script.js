@@ -53,6 +53,7 @@ function submit(e) {
   $.ajax({
     type: "POST",
     url: "https://email.chandanaandassociates.com/",
+    crossDomain: true,
     data: e,
     dataType: "json",
     encode: !0,
